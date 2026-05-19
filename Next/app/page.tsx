@@ -49,7 +49,7 @@ export default function Home() {
 
         <div className="footer-link">
           <span>Ainda não tem conta? </span>
-          <Link href="/registro">Cadastre-se aqui</Link>
+          <Link href="/cadastro">Cadastre-se aqui</Link>
         </div>
       </div>
     </div>
