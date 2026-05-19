@@ -31,7 +31,6 @@ public class Produtos {
 	private String nome;
 
 	@NotNull
-	@NotBlank
 	private double preco;
 	
 	@NotNull
