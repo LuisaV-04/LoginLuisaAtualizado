@@ -6,11 +6,13 @@ import ProdutosForm from '@/app/components/produtosForm';
 import '@/app/formStyle.css';
 
 export default function EditarProdutoPage() {
+    const params = useParams();
+    const id = Number(params.id);
 
     return (
         <>
             <NavBar />
-            <ProdutosForm  />
+            <ProdutosForm produtoId={id} />
         </>
     );
 }
